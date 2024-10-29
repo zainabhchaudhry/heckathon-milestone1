@@ -1,0 +1,84 @@
+/* page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+div {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    color: #0056b3;
+    font-size: 1.2em;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: calc(100% - 160px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"],
+button#toggle {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+/* Button styling */
+button#toggle {
+    margin-top: 10px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #0056b3;
+    outline: none;
+}

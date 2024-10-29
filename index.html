@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>INTERACTIVE RESUME BUILDER</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="typescript.js"></script>
+</head>
+
+<body>
+	<div>
+	<h1><b>STATIC RESUME BUILDER</b></h1>
+	<form id="RESUME">
+
+		<fieldset>
+			<legend><b>Professional Summary</b></legend>
+			<textarea id="Objective" name="Professional Summary" rows="4" required></textarea><br>
+			</fieldset>
+
+			<fieldset>
+				<legend><b>Personal Information</b></legend>
+
+				<label for="name">*Full Name:  </label>
+				<input type="text" id="Name" name="Name" required><br>
+
+				<label for="email">*Email: </label>
+				<input type="email" id="Email" name="Email" required><br>
+
+				<label for="name">*Contact Info:  </label>
+				<input type="number" id="number" required><br>
+
+				<label for="linkedIn">*LinkedIn:  </label>
+				<input type="text" id="LinkedIn" name="LinkedIn" required><br>
+			</fieldset>
+
+
+            <fieldset>
+				<legend><b>Work Experience</b></legend>
+				
+                <label for="Organization">*Organization:  </label>
+				<input type="text" id=Organization name="Organization" required><br>
+
+				<label for="Post">*Role:  </label>
+				<input type="text" id="role" name="role" required><br>
+
+				<label for="year">*From Year:  </label>
+				<input type="number text" id="year" name="year" required>
+				<br>
+
+				<label for="year">to Year:  </label>
+				<input type="number text" id="number" name="number" required><br>
+				<br>
+                
+                <label>*Experience Details</label>
+                <textarea id="Experience details" name=Experience rows="3"></textarea>
+			</fieldset>
+
+    
+			<fieldset>
+				<legend><b>Education</b></legend>
+				
+                <label for="Degree">*Degree:  </label>
+				<input type="text" id=Degree name="Degree" required><br>
+
+				<label for="University">*University:  </label>
+				<input type="text" id="University" name="University" required><br>
+
+				<label for="Passing year">*Passing Year:  </label>
+				<input type="number" id="number" name="number" required><br>
+
+				<label for="CGPA">*CGPA/Percentage:  </label>
+				<input type="number" id="number" name="number" required><br>
+			</fieldset>
+
+            <fieldset>
+            	<legend><b>*Skills</b></legend>
+
+            	<label>*Soft Skills</label><br>
+            	<input type="text" id="skill" name="skill" required><br>
+            	<input type="text" id="skill" name="skill" required><br>
+            	<input type="text" id="skill" name="skill" required><br>
+
+
+            	<label>*Technical Skills</label><br>
+            	<input type="text" id="skill" name="skill" required><br>
+            	<input type="text" id="skill" name="skill" required><br>
+            	<input type="text" id="skill" name="skill" required><br>
+            </fieldset>
+
+			<fieldset>
+            	<legend><b>*Languages</b></legend>
+
+            	<input type="text" id="Language" name="Language" required><br>
+            	<input type="text" id="language" name="language" required><br>
+
+			</fieldset>
+           
+           <fieldset>
+            	<legend><b>*Professional Certifications</b></legend>
+
+            	<input type="text" id="field.style.display" required><br>
+            	<input type="text" id="field.style.display" required><br>
+            	<input type="text" id="field.style.display" required><br>
+
+            	<button id="toggle">Hide/Show Certificates</button>
+            </fieldset>
+
+            <button type="submit"><b>Generate</b></button>
+	</form>
+</div>
+</body>
+</html>
